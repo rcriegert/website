@@ -1,0 +1,59 @@
+% !TeX root = Riegert_Robert_Resume_.tex
+\documentclass[12pt]{article}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+\usepackage[none]{hyphenat}
+\emergencystretch=1em
+
+\usepackage{cmbright}
+\usepackage[T1]{fontenc}
+
+\usepackage[margin=0.75in]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=black,
+	citecolor=black,
+	filecolor=black,
+	anchorcolor=black,
+	menucolor=black,
+	runcolor=black,
+	pdfborder={0 0 0} % no visible border
+}
+
+%\usepackage{attachfile2}
+
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{amsmath}  % Required for \pmb
+
+\setlist[itemize]{nosep}
+%\setlist[itemize,1]{label=\scalebox{0.8}{$\bullet$}}
+\setlist[itemize,1]{label=\raisebox{0.50ex}{\scalebox{0.45}{$\pmb{\rangle}$}}}
+\setlist[itemize,2]{label=\scalebox{0.8}{$\circ$}}
+
+\newcommand{\certsep}{%
+	\enspace
+	\raisebox{-0.2ex}{\vrule height 1.9ex depth 0.2ex}
+	\enspace
+}
+
+\begin{document}
+	
+	\input{header}
+	\vspace{3pt}\hrule\vspace{6pt}
+	\input{education}
+	\vspace{6pt}\hrule\vspace{6pt}
+%	\input{skills}
+%	\vspace{6pt}\hrule\vspace{6pt}
+	\input{experience}
+	\vspace{6pt}\hrule\vspace{6pt}
+	\input{projects}
+	\vspace{6pt}\hrule\vspace{6pt}
+	\input{certifications}
+	
+	
+\end{document}
