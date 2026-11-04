@@ -1,0 +1,93 @@
+body {
+    width: 90%;
+    margin: 60px auto;
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+    color: #111111;
+    background: #FFF8ED;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 5px;
+    color: #444444;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 80px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #555555;
+    font-size: 14px;
+}
+
+.link-icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.cert-list {
+    padding: 0;
+    list-style: none;
+}
+
+.cert-list > li {
+    padding: 18px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.cert-list h2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.cert-list h2 a {
+    font-size: 14px;
+    font-weight: normal;
+    color: #111111;
+    text-decoration: none;
+}
+
+.cert-list h2 a:hover {
+    text-decoration: underline;
+}
+
+.cert-details {
+    margin-top: 6px;
+    padding-left: 20px;
+
+    font-size: 12px;
+    color: #555555;
+    list-style: none;
+}
+
+.cert-details li {
+    margin: 0;
+}
